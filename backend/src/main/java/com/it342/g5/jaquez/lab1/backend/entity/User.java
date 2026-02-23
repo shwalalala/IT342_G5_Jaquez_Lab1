@@ -14,6 +14,9 @@ public class User {
     @Column(unique = true)
     private String email;
 
+    @Column(unique = true)
+    private String username;
+
     private String password;
 
     // getters and setters
@@ -35,6 +38,14 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
 }
