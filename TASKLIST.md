@@ -7,18 +7,18 @@
 
 ## DONE:
 - setup ReactJS and SpringBoot: git commit -m "initial commit: setup springboot and react structure"  
+- setup README.md and TASKLIST.md
 
+## IN PROGRESS:
+--add document 
 
-IN PROGRESS:
--setup README.md and TASKLIST.md
--add document 
 -ReactJS:
 --Register
 --Login
 --Dashboard/Profile
 --Logout
 
-TODO:
+## TODO:
 Backend:
 --POST /api/auth/register
 --POST /api/auth/login
