@@ -8,8 +8,7 @@ import com.it342.g5.jaquez.lab1.backend.dto.UserRegisterDTO;
 import com.it342.g5.jaquez.lab1.backend.dto.UserResponseDTO;
 import com.it342.g5.jaquez.lab1.backend.entity.User;
 import com.it342.g5.jaquez.lab1.backend.repository.UserRepository;
-
-import java.util.Optional;
+import com.it342.g5.jaquez.lab1.backend.util.JwtUtil;
 
 @Service
 public class UserService {
